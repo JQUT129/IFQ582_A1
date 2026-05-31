@@ -5,64 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7434f42e-c207-4e7b-aacb-55ed2e27b6a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/artefacts/artefact_example_image_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/artefacts/artefact_example_image_02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banners/ail_landing_banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/collections/collection_example_image_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/flags/img_aboriginal_flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/flags/img_torres_flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/ail_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sidebar/ail_background_sidebar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/artefact_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/artefacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/review.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/artefacts_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/artefact_view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/artefacts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +51,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/Projects/IFQ582_A1/images/artefacts",
+    "last_opened_file_path": "D:/Projects/IFQ582_A1/pages",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -117,11 +65,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\IFQ582_A1\pages" />
       <recent name="D:\Projects\IFQ582_A1\images\artefacts" />
       <recent name="D:\Projects\IFQ582_A1\images\banners" />
       <recent name="D:\Projects\IFQ582_A1\images\flags" />
       <recent name="D:\Projects\IFQ582_A1\images\sidebar" />
-      <recent name="D:\Projects\IFQ582_A1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\IFQ582_A1\images\collections" />
@@ -146,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1780159443265</updated>
       <workItem from="1780159444166" duration="17000" />
-      <workItem from="1780159771458" duration="17515000" />
+      <workItem from="1780159771458" duration="20172000" />
     </task>
     <servers />
   </component>

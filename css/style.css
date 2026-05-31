@@ -15,6 +15,9 @@
 
     /* Button Variables */
     --primary-button-color: #A44C1F;
+    --positive-button-color: #2F6B3A;
+    --negative-button-color: #8B2E2E;
+    --neutral-button-color: #D6A24A;
 
     /* Text Variables */
     --primary-text-color: #050505;
@@ -59,7 +62,8 @@ a
 }
 
 /* Sidebar */
-.sidebar {
+.sidebar
+{
     min-height: 100vh;
     height: 100%;
     margin: 0;
@@ -70,7 +74,8 @@ a
     color: var(--secondary-header-text-color);
 }
 
-.sidebar-background-image {
+.sidebar-background-image
+{
     position: absolute;
     inset: 0;
 
@@ -96,32 +101,38 @@ a
     pointer-events: none;
 }
 
-.sidebar > *:not(.sidebar-background-image) {
+.sidebar > *:not(.sidebar-background-image)
+{
     position: relative;
     z-index: 2;
 }
 
 
-.sidebar .nav-link {
+.sidebar .nav-link
+{
     color: var(--secondary-header-text-color);
     font-size: clamp(0.75rem, 1.1vw, 1.35rem);
     text-decoration: none;
 }
 
-.sidebar .nav-link:hover {
+.sidebar .nav-link:hover
+{
     color: var(--text-hover-color);
 
 }
 
-.sidebar .nav-link:active {
+.sidebar .nav-link:active
+{
     color: var(--text-pressed-color);
 }
 
-.sidebar .nav-link.active {
+.sidebar .nav-link.active
+{
     color: var(--text-selected-color);
 }
 
-.sidebar-brand h1 {
+.sidebar-brand h1
+{
     color: var(--secondary-header-text-color);
     font-size: clamp(0.75rem, 1.1vw, 1.35rem);
     line-height: 1.1;
@@ -129,19 +140,22 @@ a
 /* End of Sidebar */
 
 /* Landing Page */
-.page-content {
+.page-content
+{
     min-height: 100vh;
     background-color: var(--primary-bg-color);
 }
 
-.banner-wrapper {
+.banner-wrapper
+{
     position: relative;
     width: 100%;
     height: clamp(90px, 12vw, 130px);
     overflow: hidden;
 }
 
-.banner-wrapper > img {
+.banner-wrapper > img
+{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -149,7 +163,8 @@ a
     filter: brightness(65%);
 }
 
-.banner-overlay {
+.banner-overlay
+{
     position: absolute;
     inset: 0;
 
@@ -162,37 +177,43 @@ a
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
 }
 
-.banner-logo {
+.banner-logo
+{
     width: clamp(28px, 3vw, 46px);
     height: clamp(28px, 3vw, 46px);
     object-fit: contain;
     margin-bottom: 0.4rem;
 }
 
-.banner-overlay h1 {
+.banner-overlay h1
+{
     color: var(--secondary-header-text-color);
     font-size: clamp(1.1rem, 2vw, 1.8rem);
     letter-spacing: 1px;
 }
 
-.welcome-card {
+.welcome-card
+{
     background-color: var(--secondary-bg-color);
     border-radius: 6px;
     padding: clamp(1rem, 2vw, 1.5rem);
 }
 
-.welcome-card h2 {
+.welcome-card h2
+{
     color: var(--primary-header-text-color);
     font-size: clamp(1.35rem, 2vw, 2rem);
     line-height: 1.05;
 }
 
-.welcome-text {
+.welcome-text
+{
     font-size: clamp(0.95rem, 1vw, 1.15rem);
     color: var(--primary-text-color);
 }
 
-.btn-ail {
+.btn-ail
+{
     background-color: var(--primary-button-color);
     color: white;
     border: none;
@@ -200,12 +221,14 @@ a
     border-radius: 4px;
 }
 
-.btn-ail:hover {
+.btn-ail:hover
+{
     background-color: var(--secondary-header-color);
     color: white;
 }
 
-.info-card {
+.info-card
+{
     background-color: var(--secondary-bg-color);
     overflow: hidden;
 
@@ -213,7 +236,8 @@ a
     flex-direction: column;
 }
 
-.info-card-header {
+.info-card-header
+{
     padding: 0.65rem 0.9rem;
 
     background: linear-gradient(rgba(94, 29, 9, 0.9), rgba(94, 29, 9, 0.9)), url("../images/sidebar/ail_background_sidebar.png");
@@ -224,13 +248,15 @@ a
     font-size: clamp(1rem, 1.3vw, 1.35rem);
 }
 
-.info-card-body {
+.info-card-body
+{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
 
-.info-card-image {
+.info-card-image
+{
     width: 100%;
     height: clamp(110px, 12vw, 170px);
     object-fit: cover;
@@ -238,7 +264,8 @@ a
     display: block;
 }
 
-.info-card h3 {
+.info-card h3
+{
     color: var(--primary-header-text-color);
     font-size: clamp(1rem, 1.5vw, 1.7rem);
 }
@@ -248,83 +275,97 @@ a
     font-size: clamp(0.8rem, 0.9vw, 1rem);
 }
 
-.card-link-ail {
+.card-link-ail
+{
     color: var(--secondary-text-color);
     text-decoration: none;
     font-size: clamp(0.85rem, 0.9vw, 1rem);
 }
 
-.card-link-ail:hover {
+.card-link-ail:hover
+{
     color: var(--text-hover-color);
 }
 
-.event-item {
+.event-item
+{
     background-color: var(--tertiary-bg-color);
     padding: 0.35rem 0.55rem;
     margin-bottom: 0.45rem;
 }
 
-.event-item p {
+.event-item p
+{
     font-size: clamp(0.75rem, 0.8vw, 0.9rem);
     color: var(--primary-text-color);
 }
 
-.event-item small {
+.event-item small
+{
     color: var(--primary-text-color);
     font-size: clamp(0.6rem, 0.65vw, 0.75rem);
 }
 /* End of Landing Page */
 
 /* Artefact Page */
-.artefacts-page {
+.artefacts-page
+{
     min-height: 100vh;
     background-color: var(--primary-bg-color);
 }
 
-.artefacts-header h1 {
+.artefacts-header h1
+{
     color: var(--primary-header-text-color);
     font-size: clamp(2rem, 3vw, 3rem);
     line-height: 1;
 }
 
-.artefacts-header p {
+.artefacts-header p
+{
     color: var(--primary-text-color);
     font-size: clamp(0.9rem, 1vw, 1rem);
     max-width: 520px;
 }
 
-.artefact-search {
+.artefact-search
+{
     background-color: transparent;
     border: 1px solid var(--primary-header-text-color);
     border-radius: 6px;
     color: var(--primary-text-color);
 }
 
-.artefact-search::placeholder {
+.artefact-search::placeholder
+{
     color: var(--muted-text-color);
 }
 
-.artefact-control-btn {
+.artefact-control-btn
+{
     background-color: transparent;
     border: 1px solid var(--primary-header-text-color);
     border-radius: 6px;
     color: var(--muted-text-color);
 }
 
-.artefact-control-btn:hover {
+.artefact-control-btn:hover
+{
     background-color: var(--secondary-bg-color);
     color: var(--primary-header-text-color);
 }
 
 
-.artefact-card {
+.artefact-card
+{
     position: relative;
     overflow: hidden;
     border-radius: 6px;
     background-color: var(--secondary-bg-color);
 }
 
-.artefact-card img {
+.artefact-card img
+{
     width: 100%;
     height: clamp(120px, 10vw, 150px); /* Very awkward values, but I give up */
     object-fit: cover;
@@ -332,44 +373,52 @@ a
     background-color: white;
 }
 
-.artefact-card-body {
+.artefact-card-body
+{
     padding: 0.7rem;
 }
 
-.artefact-card-body h2 {
+.artefact-card-body h2
+{
     color: var(--primary-text-color);
     font-size: clamp(1rem, 1.1vw, 1.35rem);
 }
 
-.artefact-mob {
+.artefact-mob
+{
     color: var(--secondary-text-color);
     font-size: clamp(0.75rem, 0.8vw, 0.9rem);
     font-weight: 600;
 }
 
-.artefact-description {
+.artefact-description
+{
     color: var(--primary-text-color);
     font-size: clamp(0.75rem, 0.8vw, 0.9rem);
     line-height: 1.1;
     margin-bottom: 1.8rem;
 }
 
-.artefact-link {
+.artefact-link
+{
     color: var(--secondary-text-color);
     text-decoration: none;
     font-size: clamp(0.75rem, 0.8vw, 0.9rem);
 }
 
-.artefact-link:hover {
+.artefact-link:hover
+{
     color: var(--text-hover-color);
 }
 
 .restricted-card img,
-.restricted-card .artefact-card-body {
+.restricted-card .artefact-card-body
+{
     filter: blur(4px);
 }
 
-.restricted-overlay {
+.restricted-overlay
+{
     position: absolute;
     inset: 0;
     z-index: 2;
@@ -384,13 +433,14 @@ a
     background-color: rgba(239, 230, 210, 0.35);
 }
 
-.restricted-overlay h2 {
+.restricted-overlay h2
+{
     color: #7a0000;
     font-size: clamp(0.95rem, 1vw, 1.2rem);
-    letter-spacing: 0.5px;
 }
 
-.restricted-btn {
+.restricted-btn
+{
     background-color: var(--primary-button-color);
     color: white;
     border: none;
@@ -399,8 +449,129 @@ a
     margin-top: 0.4rem;
 }
 
-.restricted-btn:hover {
+.restricted-btn:hover
+{
     background-color: var(--secondary-header-color);
     color: white;
 }
 /* End of Artefact Page */
+
+/* Artefact View Page */
+.artefact-view-page
+{
+    min-height: 100vh;
+    background-color: var(--primary-bg-color);
+}
+
+.artefact-back-btn
+{
+    background-color: var(--primary-button-color);
+    color: var(--secondary-header-text-color);
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    font-size: clamp(1rem, 1.2vw, 1.4rem);
+    font-weight: 700;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.artefact-back-btn span
+{
+    margin-left: 1rem;
+}
+
+.artefact-back-btn:hover
+{
+    background-color: var(--primary-button-color);
+}
+
+
+.artefact-request-btn,
+.artefact-report-btn {
+    color: var(--secondary-header-text-color);
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    font-size: clamp(0.95rem, 1.1vw, 1.25rem);
+    font-weight: 700;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.artefact-request-btn {
+    background-color: var(--positive-button-color);
+}
+
+.artefact-request-btn:hover {
+    background-color: var(--primary-button-color);
+    color: white;
+}
+
+.artefact-report-btn {
+    background-color: var(--negative-button-color);
+}
+
+.artefact-report-btn:hover {
+    background-color: var(--primary-button-color);
+    color: white;
+}
+
+.artefact-image-panel {
+    min-height: calc(100vh - 8rem);
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
+}
+
+.artefact-view-image {
+    width: 100%;
+    max-height: 70vh;
+    object-fit: contain;
+    display: block;
+}
+
+.artefact-info-panel {
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.artefact-panel-header {
+    background-color: var(--secondary-bg-color);
+    padding: 1.2rem 2rem;
+}
+
+.artefact-panel-header h1 {
+    color: var(--primary-header-text-color);
+    font-size: clamp(1.6rem, 2vw, 2.5rem);
+}
+
+.artefact-panel-body {
+    padding: 2rem;
+}
+
+.artefact-panel-body p {
+    color: var(--primary-text-color);
+    font-size: clamp(1rem, 1.05vw, 1.25rem);
+    line-height: 1.45;
+}
+
+.artefact-panel-body h2 {
+    color: var(--primary-text-color);
+    font-size: clamp(1.2rem, 1.4vw, 1.6rem);
+}
+
+.artefact-description-long {
+    max-width: 95%;
+}
+
+.metadata-item {
+    border-right: 1px solid rgba(47, 40, 31, 0.2);
+}
+
+.metadata-item:last-child {
+    border-right: none;
+}
+/* End of Artefact View Page */
