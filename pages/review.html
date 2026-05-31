@@ -53,7 +53,7 @@ For purposes of this project, index will be used as the home page as this projec
                                             <a class="nav-link fw-bold" href="#">Visit</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link fw-bold" href="../pages/review.html">Review</a>
+                                            <a class="nav-link fw-bold active" href="../pages/review.html">Review</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -83,208 +83,148 @@ For purposes of this project, index will be used as the home page as this projec
 
                 <!-- Page Content -->
                 <div class="col m-0 p-0">
-                    <main class="container-fluid artefacts-page px-5 py-4">
+                    <main class="container-fluid review-artefact-page px-5 py-5">
 
-                        <section class="artefacts-header mb-4">
-                            <h1 class="fw-bold mb-0">Artefacts</h1>
-                            <p class="mb-0">
-                                Explore our various artefacts, curated from and with the rich culture of
-                                Indigenous Australians
-                            </p>
-                        </section>
-
-                        <section class="row align-items-center mb-4 g-3">
-                            <div class="col-sm-12 col-lg-6">
-                                <input
-                                    type="text"
-                                    class="form-control artefact-search"
-                                    placeholder="Search Artefacts..."
-                                >
-                            </div>
-
-                            <div class="col-sm-6 col-lg-3 offset-lg-1">
-                                <button class="btn artefact-control-btn w-100">
-                                    Sort By
-                                </button>
-                            </div>
-
-                            <div class="col-sm-6 col-lg-2">
-                                <button class="btn artefact-control-btn w-100">
-                                    Filter By
-                                </button>
-                            </div>
-                        </section>
-
-                        <!-- Artefact Grid -->
                         <section class="row g-4">
 
-                            <!-- Artefact A -->
-                            <div class="col-sm-12 col-md-6 col-xl-3">
-                                <article class="artefact-card shadow-sm h-100">
-                                    <img src="../images/artefacts/artefact_example_image_01.jpg" alt="Artefact A">
-
-                                    <div class="artefact-card-body">
-                                        <h2 class="fw-bold mb-0">Lil-lil Club</h2>
-                                        <p class="artefact-mob mb-1">Bunjilaka</p>
-
-                                        <p class="artefact-description">
-                                            The lil-lil is a type of club which was made and used only in eastern Australia.
-                                            It was a dangerous weapon when used in battle.
-                                        </p>
-
-                                        <a href="../pages/artefacts_view.html" class="artefact-link">
-                                            View Artefact →
-                                        </a>
-                                    </div>
-                                </article>
+                            <!-- Artefact Image -->
+                            <div class="col-sm-12 col-lg-4">
+                                <div class="review-image-panel shadow-sm">
+                                    <img
+                                        src="../images/artefacts/artefact_example_image_01.jpg"
+                                        alt="Artefact image"
+                                        class="review-artefact-image"
+                                    >
+                                </div>
                             </div>
 
-                            <!-- Artefact B -->
-                            <div class="col-sm-12 col-md-6 col-xl-3">
-                                <article class="artefact-card shadow-sm h-100">
-                                    <img src="../images/artefacts/artefact_example_image_01.jpg" alt="Artefact A">
+                            <!-- General Info + Metadata -->
+                            <div class="col-sm-12 col-lg-4 d-flex flex-column gap-4">
 
-                                    <div class="artefact-card-body">
-                                        <h2 class="fw-bold mb-0">Lil-lil Club</h2>
-                                        <p class="artefact-mob mb-1">Bunjilaka</p>
-
-                                        <p class="artefact-description">
-                                            The lil-lil is a type of club which was made and used only in eastern Australia.
-                                            It was a dangerous weapon when used in battle.
-                                        </p>
-
-                                        <a href="../pages/artefacts_view.html" class="artefact-link">
-                                            View Artefact →
-                                        </a>
-                                    </div>
-                                </article>
-                            </div>
-
-                            <!-- Artefact C -->
-                            <div class="col-sm-12 col-md-6 col-xl-3">
-                                <article class="artefact-card shadow-sm h-100">
-                                    <img src="../images/artefacts/artefact_example_image_01.jpg" alt="Artefact A">
-
-                                    <div class="artefact-card-body">
-                                        <h2 class="fw-bold mb-0">Lil-lil Club</h2>
-                                        <p class="artefact-mob mb-1">Bunjilaka</p>
-
-                                        <p class="artefact-description">
-                                            The lil-lil is a type of club which was made and used only in eastern Australia.
-                                            It was a dangerous weapon when used in battle.
-                                        </p>
-
-                                        <a href="../pages/artefacts_view.html" class="artefact-link">
-                                            View Artefact →
-                                        </a>
-                                    </div>
-                                </article>
-                            </div>
-
-                            <!-- Artefact D -->
-                            <div class="col-sm-12 col-md-6 col-xl-3">
-                                <article class="artefact-card shadow-sm h-100">
-                                    <img src="../images/artefacts/artefact_example_image_01.jpg" alt="Artefact A">
-
-                                    <div class="artefact-card-body">
-                                        <h2 class="fw-bold mb-0">Lil-lil Club</h2>
-                                        <p class="artefact-mob mb-1">Bunjilaka</p>
-
-                                        <p class="artefact-description">
-                                            The lil-lil is a type of club which was made and used only in eastern Australia.
-                                            It was a dangerous weapon when used in battle.
-                                        </p>
-
-                                        <a href="../pages/artefacts_view.html" class="artefact-link">
-                                            View Artefact →
-                                        </a>
-                                    </div>
-                                </article>
-                            </div>
-
-                            <!-- Artefact E -->
-                            <div class="col-sm-12 col-md-6 col-xl-3">
-                                <article class="artefact-card shadow-sm h-100">
-                                    <img src="../images/artefacts/artefact_example_image_01.jpg" alt="Artefact A">
-
-                                    <div class="artefact-card-body">
-                                        <h2 class="fw-bold mb-0">Lil-lil Club</h2>
-                                        <p class="artefact-mob mb-1">Bunjilaka</p>
-
-                                        <p class="artefact-description">
-                                            The lil-lil is a type of club which was made and used only in eastern Australia.
-                                            It was a dangerous weapon when used in battle.
-                                        </p>
-
-                                        <a href="../pages/artefacts_view.html" class="artefact-link">
-                                            View Artefact →
-                                        </a>
-                                    </div>
-                                </article>
-                            </div>
-
-                            <!-- Sensitive Artefact -->
-                            <div class="col-sm-12 col-md-6 col-xl-3">
-                                <article class="artefact-card restricted-card shadow-sm h-100">
-                                    <img src="../images/artefacts/artefact_example_image_02.jpg" alt="Sensitive Artefact">
-
-                                    <div class="restricted-overlay">
-                                        <h2 class="fw-bold text-uppercase">Sensitive Artefact</h2>
-                                        <a href="#" class="btn restricted-btn">
-                                            View
-                                        </a>
+                                <!-- General Info -->
+                                <article class="review-info-panel shadow-sm">
+                                    <div class="review-panel-header">
+                                        <h1 class="fw-bold m-0">General Info</h1>
                                     </div>
 
-                                    <div class="artefact-card-body">
-                                        <h2 class="fw-bold mb-0">Boomerang</h2>
-                                        <p class="artefact-mob mb-1">Mob B</p>
+                                    <div class="review-panel-body">
+                                        <p><strong>Used By:</strong> Example Name B </p>
+                                        <p><strong>Location:</strong> Western Australia </p>
+                                        <p><strong>Discovered:</strong> 1905-09-20</p>
 
-                                        <p class="artefact-description">
-                                            Late 19th century boomerang featuring scalloped design particular to north-west New South Wales
+                                        <h2 class="fw-bold mt-4">Description:</h2>
+
+                                        <p>
+                                            Artefact B was a weapon
                                         </p>
                                     </div>
                                 </article>
-                            </div>
 
-                            <!-- Restricted Artefact -->
-                            <div class="col-sm-12 col-md-6 col-xl-3">
-                                <article class="artefact-card restricted-card shadow-sm h-100">
-                                    <img src="../images/artefacts/artefact_example_image_02.jpg" alt="Restricted Artefact">
-
-                                    <div class="restricted-overlay">
-                                        <h2 class="fw-bold text-uppercase">Restricted Artefact</h2>
-                                        <a href="#" class="btn restricted-btn">
-                                            Request Access
-                                        </a>
+                                <!-- Metadata -->
+                                <article class="review-info-panel shadow-sm">
+                                    <div class="review-panel-header">
+                                        <h1 class="fw-bold m-0">Metadata</h1>
                                     </div>
 
-                                    <div class="artefact-card-body">
-                                        <h2 class="fw-bold mb-0">Boomerang</h2>
-                                        <p class="artefact-mob mb-1">Mob B</p>
+                                    <div class="review-panel-body">
+                                        <div class="row text-center metadata-row">
+                                            <div class="col-4 metadata-item">
+                                                <p class="fw-bold mb-1">Uploaded:</p>
+                                                <p class="mb-0">2026-05-08</p>
+                                            </div>
 
-                                        <p class="artefact-description">
-                                            Late 19th century boomerang featuring scalloped design particular to north-west New South Wales
-                                        </p>
+                                            <div class="col-4 metadata-item">
+                                                <p class="fw-bold mb-1">Last Updated:</p>
+                                                <p class="mb-0">2026-07-08 </p>
+                                            </div>
+
+                                            <div class="col-4 metadata-item">
+                                                <p class="fw-bold mb-1">Created:</p>
+                                                <p class="mb-0">4000bce</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-4">
+                                            <div class="col-4 text-center">
+                                                <p class="fw-bold mb-1">Uploaded By:</p>
+                                                <p class="mb-0">Morgan Hayes</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </article>
+
                             </div>
 
-                            <!-- Artefact F -->
-                            <div class="col-sm-12 col-md-6 col-xl-3">
-                                <article class="artefact-card shadow-sm h-100">
-                                    <img src="../images/artefacts/artefact_example_image_02.jpg" alt="Artefact F">
+                            <!-- Review Artefact -->
+                            <div class="col-sm-12 col-lg-4">
+                                <article class="review-form-panel shadow-sm h-100">
+                                    <div class="review-panel-header">
+                                        <h1 class="fw-bold m-0">Review Artefact</h1>
+                                    </div>
 
-                                    <div class="artefact-card-body">
-                                        <h2 class="fw-bold mb-0">Boomerang</h2>
-                                        <p class="artefact-mob mb-1">Mob B</p>
+                                    <div class="review-panel-body d-flex flex-column h-100">
 
-                                        <p class="artefact-description">
-                                            Late 19th century boomerang featuring scalloped design particular to north-west New South Wales
-                                        </p>
+                                        <div class="mb-4">
+                                            <h2 class="fw-bold">Review Type</h2>
+                                            <p class="mb-3">Select a review decision</p>
 
-                                        <a href="../pages/artefacts_view.html" class="artefact-link">
-                                            View Artefact →
-                                        </a>
+                                            <!-- Accept -->
+                                            <label class="review-option review-accept mb-3">
+                                                <div class="review-option-left">
+                                                    <span class="fw-bold">Accept</span>
+                                                </div>
+
+                                                <input type="radio" name="review-type" value="accept">
+                                            </label>
+
+                                            <!-- Deny -->
+                                            <label class="review-option review-deny mb-3">
+                                                <div class="review-option-left">
+                                                    <span class="fw-bold">Deny</span>
+                                                </div>
+
+                                                <input type="radio" name="review-type" value="deny">
+                                            </label>
+
+                                            <!-- Request Changes -->
+                                            <label class="review-option review-changes">
+                                                <div class="review-option-left">
+                                                    <span class="fw-bold">Request Changes</span>
+                                                </div>
+
+                                                <input type="radio" name="review-type" value="request-changes">
+                                            </label>
+                                        </div>
+
+                                        <!-- Comments -->
+                                        <div class="mb-4">
+                                            <h2 class="fw-bold mb-1">Comments</h2>
+                                            <p class="mb-3">Provide details about your review required</p>
+
+                                            <div class="comment-box-wrapper">
+                                                <textarea
+                                                    class="form-control review-comments"
+                                                    placeholder="Enter review comment"
+                                                    maxlength="1000"
+                                                ></textarea>
+
+                                                <span class="comment-count">0 / 1000</span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Actions -->
+                                        <div class="review-actions">
+                                            <button class="btn submit-review-btn">
+                                                <span class="me-2"></span>
+                                                Submit Review
+                                            </button>
+
+                                            <button class="btn save-draft-btn">
+                                                <span class="me-2"></span>
+                                                Save Draft
+                                            </button>
+                                        </div>
+
                                     </div>
                                 </article>
                             </div>

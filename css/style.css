@@ -16,8 +16,11 @@
     /* Button Variables */
     --primary-button-color: #A44C1F;
     --positive-button-color: #2F6B3A;
+    --positve-button-hover-color: #224e2a;
     --negative-button-color: #8B2E2E;
+    --negative-button-hover-color: #5e1f1f;
     --neutral-button-color: #D6A24A;
+    --neutral-button-hover-color: #a37d37;
 
     /* Text Variables */
     --primary-text-color: #050505;
@@ -500,7 +503,7 @@ a
 }
 
 .artefact-request-btn:hover {
-    background-color: var(--primary-button-color);
+    background-color: var(--positve-button-hover-color);
     color: white;
 }
 
@@ -509,7 +512,7 @@ a
 }
 
 .artefact-report-btn:hover {
-    background-color: var(--primary-button-color);
+    background-color: var(--negative-button-hover-color);
     color: white;
 }
 
@@ -575,3 +578,217 @@ a
     border-right: none;
 }
 /* End of Artefact View Page */
+
+/* Review Artefact Page */
+.review-artefact-page
+{
+    min-height: 100vh;
+    background-color: var(--primary-bg-color);
+}
+
+/* Image Panel */
+.review-image-panel
+{
+    min-height: calc(100vh - 6rem);
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2rem;
+}
+
+.review-artefact-image
+{
+    width: 100%;
+    max-height: 70vh;
+    object-fit: contain;
+    display: block;
+}
+
+.review-info-panel,
+.review-form-panel
+{
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.review-panel-header
+{
+    background-color: var(--secondary-bg-color);
+    padding: 1.25rem 1.75rem;
+}
+
+.review-panel-header h1
+{
+    color: var(--primary-header-text-color);
+    font-size: clamp(1.5rem, 2vw, 2.25rem);
+}
+
+.review-panel-body
+{
+    padding: 1.75rem;
+}
+
+.review-panel-body h2
+{
+    color: var(--primary-text-color);
+    font-size: clamp(1rem, 1.2vw, 1.35rem);
+}
+
+.review-panel-body p
+{
+    color: var(--primary-text-color);
+    font-size: clamp(0.9rem, 1vw, 1.1rem);
+    line-height: 1.55;
+}
+
+.metadata-item
+{
+    border-right: 1px solid rgba(47, 40, 31, 0.2);
+}
+
+.metadata-item:last-child
+{
+    border-right: none;
+}
+
+.review-option
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 1rem;
+    border-radius: 6px;
+
+    background-color: rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+}
+
+.review-option-left
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.review-icon
+{
+    width: 2.1rem;
+    height: 2.1rem;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    color: white;
+    font-weight: 800;
+    font-size: 1.35rem;
+}
+
+.review-option input
+{
+    width: 1.2rem;
+    height: 1.2rem;
+    accent-color: var(--primary-button-color);
+}
+
+/* Review Type Colours */
+.review-accept
+{
+    background-color: var(--positive-button-color);
+    color: white;
+}
+
+.review-deny
+{
+    background-color: var(--negative-button-color);
+    color: white;
+}
+
+.review-changes
+{
+    background-color: var(--neutral-button-color);
+    color: white;
+}
+.review-accept:hover
+{
+    background-color: var(--positve-button-hover-color);
+}
+.review-deny:hover
+{
+    background-color: var(--negative-button-hover-color);
+}
+.review-changes:hover
+{
+    background-color: var(--neutral-button-hover-color);
+}
+
+.comment-box-wrapper
+{
+    position: relative;
+}
+
+.review-comments
+{
+    min-height: 190px;
+    resize: none;
+
+    padding: 1rem;
+    padding-bottom: 2.5rem;
+}
+
+.comment-count
+{
+    position: absolute;
+    right: 1rem;
+    bottom: 0.8rem;
+
+    color: var(--muted-text-color);
+    font-size: 0.9rem;
+}
+
+.review-actions
+{
+    display: flex;
+    gap: 1rem;
+}
+
+.submit-review-btn,
+.save-draft-btn {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 6px;
+
+    font-weight: 700;
+    font-size: clamp(0.9rem, 1vw, 1.15rem);
+}
+
+.submit-review-btn {
+    background-color: var(--positive-button-color);
+    color: white;
+    border: none;
+}
+
+.submit-review-btn:hover {
+    background-color: var(--positve-button-hover-color);
+    color: white;
+}
+
+.save-draft-btn {
+    background-color: var(--neutral-button-color);
+    color: var(--primary-text-color);
+    border: 1px solid rgba(47, 40, 31, 0.25);
+}
+
+.save-draft-btn:hover {
+    background-color: var(--neutral-button-hover-color);
+    color: white;
+}
+/* End of Artefact Review Page */
